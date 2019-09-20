@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Homework02</string>
+    <string name="checkout_text">Checkout</string>
+    <string name="add_toping_text">Add toppings</string>
+    <string name="clear_pizza_text">Clear Pizza</string>
+    <string name="delivery_check">Delivery</string>
+    <string name="pizza_image_content">Piza Image</string>
+    <string name="title_activity_alert_dialogue">AlertDialogue</string>
+    <string name="topping_bacon">Bacon</string>
+    <string name="topping_cheese">Cheese</string>
+    <string name="topping_garlic">Garlic</string>
+    <string name="topping_green_paper">Green Paper</string>
+    <string name="topping_mashroom">Mashroom</string>
+    <string name="topping_olives">Olives</string>
+    <string name="topping_onions">Onions</string>
+    <string name="topping_red_paper">Red Paper</string>
+    <string name="title_activity_order">Pizza Store</string>
+    <string name="order_title">Your Order</string>
+    <string name="base_price_indicator">Base Price</string>
+    <string name="base_price">6.5$</string>
+    <string name="toppings_indicator">Toppings</string>
+    <string name="toppings_price">0.00$</string>
+    <string name="list_toppings">List of toppings</string>
+    <string name="delivery_cost_label">Delivery Cost</string>
+    <string name="delivery_cost">0.00$</string>
+    <string name="total_label">TOTAL</string>
+    <string name="total_amount">0.00$</string>
+
+
+</resources>
