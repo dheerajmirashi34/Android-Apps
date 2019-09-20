@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Area Calculator</string>
+    <string name="length1_text">Length 1:</string>
+    <string name="editTextLength1Hint">Enter Length 1</string>
+    <string name="length2_text">Length 2:</string>
+    <string name="editTextLength2Hint">Enter Length 2</string>
+    <string name="calculate_button_text">Calculate</string>
+    <string name="result_tv_text">0</string>
+    <string name="clear_button_text">Clear</string>
+    <string name="blank_text"></string>
+    <string name="shape_name_default">Select Shape</string>
+    <string name="zero_text">0</string>
+    <string name="shape_circle_text">Circle</string>
+    <string name="shape_triangle_text">Triangle</string>
+    <string name="shape_square_text">Square</string>
+</resources>
