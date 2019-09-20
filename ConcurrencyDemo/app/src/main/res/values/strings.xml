@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InClass04</string>
+    <string name="select_complexity_text">Select Complexity:</string>
+    <string name="complexity_value_default">0 Times</string>
+    <string name="minimum_tv">Minimum</string>
+    <string name="maximum_tv">Maximum:</string>
+    <string name="average_tv">Average:</string>
+    <string name="generate_number_button_text">Generate Number Async Task</string>
+</resources>
