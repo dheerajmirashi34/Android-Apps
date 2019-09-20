@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BMICalculator</string>
+    <string name="title_tv">Body Mass Index (BMI)</string>
+    <string name="weight_tv">Weight</string>
+    <string name="height_tv">Height</string>
+    <string name="enter_weight_hint">Enter Weight</string>
+    <string name="enter_inches_hint">Enter Inches</string>
+    <string name="enter_feet_hint">Enter Feet</string>
+    <string name="inches_et_hint">Enter Inches</string>
+    <string name="inches_tv">inches</string>
+    <string name="feet_tv">feet</string>
+    <string name="calculate_bmi_button">Calculate BMI</string>
+    <string name="invalid_input_msg">Invalid Input</string>
+    <string name="bmi_result">Your BMI: %2f</string>
+    <string name="underweight">You are underweight</string>
+    <string name="normal_weight">You have normal weight</string>
+    <string name="overweight">You are overweight</string>
+    <string name="obesity">You have obesity</string>
+    <string name="lb_tv">lb</string>
+</resources>
