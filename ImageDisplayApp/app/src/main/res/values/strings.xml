@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImageDisplayApp</string>
+    <string name="search">Search Keyword</string>
+    <string name="next_button_image">Next Button Image</string>
+    <string name="main_image">Main Image</string>
+    <string name="prev_button_image">Previous Button image</string>
+    <string name="go_button">GO</string>
+</resources>
