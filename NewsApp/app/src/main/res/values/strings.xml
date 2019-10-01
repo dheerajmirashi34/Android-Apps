@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="show_categories">Show Categories</string>
+    <string name="select_button_label">Select</string>
+    <string name="news_title" />
+    <string name="news_description" />
+    <string name="published_at" />
+    <string name="out_of_label" />
+    <string name="news_image" />
+    <string name="result_count_label" />
+    <string name="next_button_image" />
+    <string name="prev_button_image" />
+</resources>

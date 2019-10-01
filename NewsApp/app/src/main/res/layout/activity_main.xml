@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/categoryTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/show_categories"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <Button
+
+        android:id="@+id/selectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:onClick="onClickSelect"
+        android:text="@string/select_button_label"
+        app:layout_constraintBottom_toBottomOf="@+id/categoryTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/categoryTV" />
+
+    <TextView
+        android:id="@+id/newsTitleTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/news_title"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/newsImageIV"
+        app:layout_constraintStart_toStartOf="@+id/newsImageIV"
+        app:layout_constraintTop_toBottomOf="@+id/categoryTV" />
+
+    <TextView
+        android:id="@+id/newsPublishedAtTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/published_at"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/newsImageIV"
+        app:layout_constraintStart_toStartOf="@+id/newsImageIV"
+        app:layout_constraintTop_toBottomOf="@+id/newsTitleTV" />
+
+    <ImageView
+        android:id="@+id/newsImageIV"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/news_image"
+        app:layout_constraintBottom_toTopOf="@+id/newsDescriotionTV"
+        app:layout_constraintEnd_toEndOf="@+id/selectButton"
+        app:layout_constraintStart_toStartOf="@+id/categoryTV"
+        app:layout_constraintTop_toBottomOf="@+id/newsPublishedAtTV"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/newsDescriotionTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:text="@string/news_description"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/newsImageIV"
+        app:layout_constraintStart_toStartOf="@+id/newsImageIV" />
+
+
+<ImageView
+        android:id="@+id/next_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/next_button_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:srcCompat="@tools:sample/avatars[14]" />
+
+    <ImageView
+        android:id="@+id/prev_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:contentDescription="@string/prev_button_image"
+        app:layout_constraintBottom_toBottomOf="@+id/next_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/next_image"
+        tools:srcCompat="@tools:sample/avatars[6]" />
+
+    <TextView
+        android:id="@+id/resultCountTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_count_label"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/next_image"
+        app:layout_constraintEnd_toStartOf="@+id/next_image"
+        app:layout_constraintStart_toEndOf="@+id/prev_image"
+        app:layout_constraintTop_toTopOf="@+id/next_image" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/newsDescriotionTV"
+        app:layout_constraintEnd_toEndOf="@+id/selectButton"
+        app:layout_constraintStart_toStartOf="@+id/categoryTV"
+        app:layout_constraintTop_toTopOf="@+id/newsTitleTV" />
+</androidx.constraintlayout.widget.ConstraintLayout>
