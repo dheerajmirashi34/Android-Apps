@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MusixMatch</string>
+    <string name="song_tf_hint">Enter keyword</string>
+    <string name="limit_tv_text">Limit: 25</string>
+    <string name="search_button_text">Search</string>
+    <string name="rb_track_rating_text">Track rating</string>
+    <string name="rb_artist_rating_txt">Artist rating</string>
+    <string name="sort_by_tv" >Sort by:</string>
+    <string name="search_results_tv">Search results</string>
+</resources>
