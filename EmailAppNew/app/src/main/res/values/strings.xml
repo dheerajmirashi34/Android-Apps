@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EmailAppNew</string>
+    <string name="email_et_hint">Email</string>
+    <string name="password_et_hint">Password</string>
+    <string name="login_button_txt">Login</string>
+    <string name="signup_btn_txt">Sign Up</string>
+    <string name="firstNameEt">First Name</string>
+    <string name="last_name_txt">Last Name</string>
+    <string name="re_enter_pass_et">Repeat Password</string>
+    <string name="choose_password">Choose Password</string>
+    <string name="signup_btn">Sign Up</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="auth_token">authToken</string>
+    <string name="subject_label">subject</string>
+    <string name="message_label">Message</string>
+    <string name="Send" >Send</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Name" />
+    <string name="sender_name_label" />
+    <string name="mail_body_label" />
+    <string name="subject_hint">Subject</string>
+    <string name="msg_body_txt">Message</string>
+</resources>
