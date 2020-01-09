@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "335025978414",
+    "firebase_url": "https://mad-sample-1.firebaseio.com",
+    "project_id": "mad-sample-1",
+    "storage_bucket": "mad-sample-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335025978414:android:0eb8ed517b083e39bf33bf",
+        "android_client_info": {
+          "package_name": "com.example.firebasesampleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335025978414-koheemu5kmu4tarr21bk147f7jgvikrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHzLoZWrEsgBJA9hTkanky2jcm54uvpbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335025978414-koheemu5kmu4tarr21bk147f7jgvikrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335025978414:android:fef93ee2461976c5bf33bf",
+        "android_client_info": {
+          "package_name": "com.example.moviesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335025978414-koheemu5kmu4tarr21bk147f7jgvikrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHzLoZWrEsgBJA9hTkanky2jcm54uvpbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335025978414-koheemu5kmu4tarr21bk147f7jgvikrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335025978414:android:22d02a3c39fbbe51bf33bf",
+        "android_client_info": {
+          "package_name": "com.example.photoalbum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335025978414-koheemu5kmu4tarr21bk147f7jgvikrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHzLoZWrEsgBJA9hTkanky2jcm54uvpbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335025978414-koheemu5kmu4tarr21bk147f7jgvikrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
