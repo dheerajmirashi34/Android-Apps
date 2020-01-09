@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "285742386533",
+    "firebase_url": "https://movies-app-firebase.firebaseio.com",
+    "project_id": "movies-app-firebase",
+    "storage_bucket": "movies-app-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285742386533:android:92371ddf29c8cdaae7e58c",
+        "android_client_info": {
+          "package_name": "com.example.moviesappfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285742386533-7osrticc8hr34j2l1go31927mpa8g86t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkXQwsRbBz8F2UG9Mji4pG3r_9J-HW-Bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285742386533-7osrticc8hr34j2l1go31927mpa8g86t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

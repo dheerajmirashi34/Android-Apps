@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Movies App Firebase</string>
+    <string name="Add_Movies_Btn_Txt">Add Movies</string>
+    <string name="Edit_Btn_Txt">Edit</string>
+    <string name="Delete_Movie_Btn_Txt">Delete Movie</string>
+    <string name="List_By_Yr_Btn_Txt">Show List By Year</string>
+    <string name="Show_List_By_Rating_Btn_Txt">Show List By Rating</string>
+    <string name="add_movie_button">Add Movie</string>
+    <string name="Movies_By_Year_Title">Display Movie Details</string>
+    <string name="Movies_By_Rating_Title">Movies By Rating</string>
+    <string name="Title_Label">Title:</string>
+    <string name="Desc_Txt">Description:</string>
+    <string name="Genre_Lebel_Txt">Genre:</string>
+    <string name="Ratings_Label_Txt">Ratings:</string>
+    <string name="Imdb_Label_Txt">IMDB:</string>
+    <string name="Finish_Button_Txt">Finish</string>
+    <string name="Year_Label_Txt">Year:</string>
+    <string name="name_label">Name</string>
+    <string name="description_label">Description</string>
+    <string name="rating_label">Rating:</string>
+    <string name="rating_count">0</string>
+    <string name="year_hint_label">Enter Movie Release Year</string>
+    <string name="imdb_link_hint">Put IMDB link here</string>
+    <string name="save_changes_label">Save Changes</string>
+</resources>
