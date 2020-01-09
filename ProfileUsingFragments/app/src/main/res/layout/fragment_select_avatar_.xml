@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectAvatar_Fragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="203dp" />
+
+        <ImageView
+            android:id="@+id/firstAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/secondAvatar"
+            app:layout_constraintEnd_toStartOf="@+id/guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/avatar_f_1" />
+
+        <ImageView
+            android:id="@+id/secondAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/thirdAvatar"
+            app:layout_constraintStart_toStartOf="@+id/firstAvatar"
+            app:layout_constraintTop_toBottomOf="@+id/firstAvatar"
+            app:srcCompat="@drawable/avatar_f_2" />
+
+        <ImageView
+            android:id="@+id/thirdAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/secondAvatar"
+            app:layout_constraintTop_toBottomOf="@+id/secondAvatar"
+            app:srcCompat="@drawable/avatar_f_3" />
+
+        <ImageView
+            android:id="@+id/fourthAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/fifthAvatar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/avatar_m_1" />
+
+        <ImageView
+            android:id="@+id/fifthAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/sixthAvatar"
+            app:layout_constraintEnd_toEndOf="@+id/fourthAvatar"
+            app:layout_constraintStart_toStartOf="@+id/fourthAvatar"
+            app:layout_constraintTop_toBottomOf="@+id/fourthAvatar"
+            app:srcCompat="@drawable/avatar_m_2" />
+
+        <ImageView
+            android:id="@+id/sixthAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/fifthAvatar"
+            app:layout_constraintTop_toBottomOf="@+id/fifthAvatar"
+            app:srcCompat="@drawable/avatar_m_3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

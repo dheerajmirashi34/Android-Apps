@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ProfileUsingFragments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sis_rb_text">SIS</string>
+    <string name="bio_rb_text">BIO</string>
+    <string name="cs_rb_text">CS</string>
+    <string name="sis_rb_txt">SIS</string>
+    <string name="bio_rb_txt" />
+    <string name="other_rb_txt">Other</string>
+    <string name="department_txt">Department:</string>
+    <string name="save_btn_txt">Save</string>
+    <string name="edit_btn_txt">Edit</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_et">Last Name</string>
+    <string name="student_id_hint">Student ID</string>
+</resources>
